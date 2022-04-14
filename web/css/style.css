@@ -1,0 +1,112 @@
+/*Estilos Gerais*/
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+}
+
+a {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+
+/*Header*/
+
+.container-header {
+    background: #3199dc;
+    padding-top: 10px;
+    max-width: 1300px;
+    margin: 0 auto;
+    
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.img {
+    align-items: center;
+    padding: 20px;
+}
+
+.logo-descricao {
+    display: flex;
+}
+
+.logo-descricao img {
+    align-items: flex-end;
+    margin-left: 50px;
+}
+
+.logo-descricao h2 {
+    font-size: 16px;
+    color: #c8eefd;
+    margin-top: 50px;
+}
+
+.btn {
+    align-items: center;
+    padding: 25px;
+}
+
+.btn button {
+    padding: 4px 17px;
+    margin-left: 30px;
+    border-radius: 7px solid #fff;
+    background: #fff;
+}
+
+.btn a {
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+
+.btn-facebook a {
+    color: #335190;
+}
+
+.btn-twitter a {
+    color: #00aff2;
+}
+
+/*Introdução*/
+
+.introducao {
+    max-width: 1100px;
+    height: 380px;
+    background: url('../../img/banner-rotate.png') no-repeat center;
+    background-size: cover;
+    margin-top: 60px;
+    padding-top: 50px;
+    margin: 60px auto;
+}
+
+.container-intro h1 {
+    max-width: 250px;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    background: #2c8cc8;
+    padding: 5px 15px;
+    margin-top: 245px;
+    margin-left: 20px;
+}
+
+.container-intro h2 {
+    color: #fff;
+    font-size: 26px;
+    margin-left: 20px;
+    margin-top: 10px;
+    
+
+}
+
+
+
