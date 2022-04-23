@@ -14,6 +14,11 @@ li, a {
     text-decoration: none;
 }
 
+
+.border-bottom {
+    border-bottom: 2px solid rgb(218, 216, 216);
+}
+
 /*Header*/
 
 .container-header {
@@ -64,7 +69,6 @@ li, a {
     font-size: 11px;
     text-transform: uppercase;
 }
-
 
 .btn-facebook a {
     color: #335190;
@@ -130,7 +134,7 @@ li, a {
 .fotos-grid {
     max-width: 1100px;
     margin: 0 auto;
-    padding-top: 60px;
+    margin-top: 120px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
@@ -138,35 +142,30 @@ li, a {
 }
 
 .rows {
-    
+    top: -34px; /*subiu a imagem 5 e 1*/
+    position: relative; 
 }
 
-
 .destaque {
-   
     font-size: 0.875em;
     color: #444444;
     max-width: 16em;
 }
 
-.photo {
-
+.subtitulo {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #67a4cb;
 }
 
-p {
+.paragrafo {
     font-size: 15px;
     line-height: 1.6;
     letter-spacing: -0.005em;
     margin-top: 0;
     color: #78838f;
     font-weight: bold;
-}
-
-h2 {
-    font-size: 15px;
-    text-transform: uppercase;
-    color: #67a4cb;
-
+    padding-bottom: 30px;
 }
 
 .fotos-grid img { /*alterei e alinhou as imagens*/
@@ -199,12 +198,10 @@ h2 {
     grid-row: 2/3;
 }
 
-
 .foto2 {
     grid-column: 2/3;
     grid-row: 2/3;
 }
-
 
 .banner {
     grid-column: 3/4;
@@ -216,13 +213,58 @@ h2 {
     grid-row: 3/4;
 }
 
-
 .foto4 {
     grid-column: 2/3;
     grid-row: 3/4;
 }
 
+/*Section*/
 
+.secao-destaques {
+    display: flex;
+    margin: 0 auto;
+    gap: 40px;
+    padding: 40px;
+}
+
+.div-destaques h2 {
+    color: #1ca6ea;
+    font-size: 25px;
+}
+
+.div-destaques p {
+    border-bottom: 2px solid rgb(218, 216, 216);
+}
+
+
+.sub-secao {
+    color: #e84b39;
+}
+
+h3 {
+    color: #e84b39;
+    text-transform: uppercase;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.flexbox {
+    display: flex;
+}
+
+.block {
+    display: block;
+}
+
+.block p {
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.rows-up {
+    top: -450px; /*subiu a imagem 5 e 1*/
+    position: relative; 
+}
 
 
 
