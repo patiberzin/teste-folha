@@ -142,7 +142,17 @@ li, a {
 }
 
 .rows {
-    top: -34px; /*subiu a imagem 5 e 1*/
+    top: -80px; /*subiu a imagem 5 e 1*/
+    position: relative; 
+}
+
+.up {
+    top: -35px; /*subiu a imagem 5 e 1*/
+    position: relative; 
+}
+
+.up-2 {
+    top: -114px; /*subiu a imagem 5 e 1*/
     position: relative; 
 }
 
@@ -220,11 +230,12 @@ li, a {
 
 /*Section*/
 
+
 .secao-destaques {
-    display: flex;
-    margin: 0 auto;
-    gap: 40px;
-    padding: 40px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 30px 100px 0 50px;
+    
 }
 
 .div-destaques h2 {
@@ -234,11 +245,17 @@ li, a {
 
 .div-destaques p {
     border-bottom: 2px solid rgb(218, 216, 216);
+    font-size: 16px;
+    padding-bottom: 15px;
 }
 
 
 .sub-secao {
     color: #e84b39;
+    top: -23px; /*subiu a imagem 5 e 1*/
+    position: relative; 
+    margin-bottom: 70px;
+    font-size: 25px;
 }
 
 h3 {
@@ -248,23 +265,67 @@ h3 {
     font-size: 15px;
 }
 
-.flexbox {
-    display: flex;
+.h3-up, .p-up {
+    top: -85px; 
+    position: relative;
 }
 
-.block {
-    display: block;
+.flexbox {
+    display: flex;
 }
 
 .block p {
     margin-left: 20px;
     font-size: 15px;
+    padding-right: 5px;
 }
 
 .rows-up {
-    top: -450px; /*subiu a imagem 5 e 1*/
+    top: -550px; /*subiu a imagem 5 e 1*/
     position: relative; 
 }
 
+.img-secao {
+    top: -85px;
+    position: relative; 
+}
 
+.espaco {
+    margin-left: 50px;
+}
 
+/*Footer*/
+
+.footer {
+    background-color: #283c4f;
+    padding: 20px 100px;
+    max-width: 1200px;
+    
+}
+
+.azul-claro {
+    background-color: #3199dc;
+    max-width: 1200px;
+    width: 1200px;
+    padding: 10px;
+    top: -60px;
+    position: absolute;
+    z-index: 10;
+}
+
+.azul-claro a {
+    color: white;
+    text-align: right;
+}
+
+.footer p {
+    margin-left: 20px;
+    color: white;
+    font-size: 13px;
+    margin: 0 30px;
+    padding: 20px;
+}
+
+.footer img {
+    margin-top: 10px;
+}
