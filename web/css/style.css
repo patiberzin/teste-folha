@@ -6,14 +6,13 @@ body {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0 auto;
+    max-width: 1200px;
 }
 
-a {
+li, a {
     list-style-type: none;
     text-decoration: none;
 }
-
-
 
 /*Header*/
 
@@ -22,7 +21,6 @@ a {
     padding-top: 10px;
     max-width: 1300px;
     margin: 0 auto;
-    
 }
 
 .header-flex {
@@ -104,9 +102,127 @@ a {
     font-size: 26px;
     margin-left: 20px;
     margin-top: 10px;
-    
+}
+
+.bolinhas {
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
 
 }
+
+.bolinhas ul {
+    display: flex;
+}
+
+.bolinhas ul li {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: gray;
+    margin-left: 10px;
+    
+}
+
+/*Galeria de fotos*/
+
+.fotos-grid {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.rows {
+    
+}
+
+
+.destaque {
+   
+    font-size: 0.875em;
+    color: #444444;
+    max-width: 16em;
+}
+
+.photo {
+
+}
+
+p {
+    font-size: 15px;
+    line-height: 1.6;
+    letter-spacing: -0.005em;
+    margin-top: 0;
+    color: #78838f;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #67a4cb;
+
+}
+
+.fotos-grid img { /*alterei e alinhou as imagens*/
+    display: block;
+    width: 100%;
+}
+
+.destaque {
+    margin: auto 5px;
+    font-size: 30px;
+}
+
+.foto5 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.foto6 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.foto7 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.foto1 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+
+.foto2 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+
+.banner {
+    grid-column: 3/4;
+    grid-row: 2/4;
+}
+
+.foto3 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+
+.foto4 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+
 
 
 
