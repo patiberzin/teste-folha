@@ -300,17 +300,17 @@ h3 {
     background-color: #283c4f;
     padding: 20px 100px;
     max-width: 1200px;
+    position: static;
     
 }
 
 .azul-claro {
     background-color: #3199dc;
-    max-width: 1200px;
-    width: 1200px;
+    width: 1180px;
     padding: 10px;
-    top: -60px;
-    position: absolute;
-    z-index: 10;
+    position: relative;
+    left: -100px;
+    top: -25px;
 }
 
 .azul-claro a {
